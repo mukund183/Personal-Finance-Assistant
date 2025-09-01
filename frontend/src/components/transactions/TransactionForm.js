@@ -253,24 +253,6 @@ const TransactionForm = () => {
                 onChange={handleChange}
               />
             </Grid>
-            
-            <Grid item xs={12}>
-              <Box sx={{ mt: 1 }}>
-                <Typography variant="subtitle1" gutterBottom>
-                  Receipt (Optional)
-                </Typography>
-                <input
-                  accept="image/*,application/pdf"
-                  id="receipt"
-                  type="file"
-                  onChange={handleFileChange}
-                  style={{ width: '100%' }}
-                />
-                <Typography variant="caption" color="textSecondary">
-                  Supported formats: JPG, PNG, PDF (Max size: 5MB)
-                </Typography>
-              </Box>
-            </Grid>
           </Grid>
           
           <Box sx={{ mt: 3, display: 'flex', justifyContent: 'space-between' }}>
